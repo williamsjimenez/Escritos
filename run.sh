@@ -7,5 +7,5 @@ if ! command -v python3 >/dev/null 2>&1; then
 fi
 
 echo "Iniciando servidor web..."
-echo "Abre: http://127.0.0.1:8000"
-python3 app.py
+echo "Abre en tu navegador: http://127.0.0.1:8000"
+HOST=0.0.0.0 PORT=8000 python3 app.py

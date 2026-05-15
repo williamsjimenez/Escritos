@@ -1,30 +1,28 @@
 # Escritos
 
-Ahora el proyecto es una **app web local** (no solo terminal).
+Ahora sí quedó como web local funcionando.
 
-## Cómo verlo funcionar
-
-1. Entra a la carpeta del proyecto.
-2. Ejecuta:
+## Ejecutar
 
 ```bash
 ./run.sh
 ```
 
-3. Abre en tu navegador:
+## Ver en navegador
+
+Abre:
 
 - http://127.0.0.1:8000
 
-Vas a ver una pantalla con el mensaje: **"✅ ¡Ya está funcionando!"**
+## Detener
 
-## Cómo detenerlo
-
-En la terminal donde corre el servidor, presiona:
+En la terminal del servidor:
 
 - `Ctrl + C`
 
-## Alternativa manual
+## Verificación rápida técnica
 
 ```bash
-python3 app.py
+python3 -m py_compile app.py
+python3 -m http.server 8000
 ```
