@@ -1,37 +1,30 @@
 # Escritos
 
-Este proyecto ya está listo para ejecutarse.
+Ahora el proyecto es una **app web local** (no solo terminal).
 
-## Opción rápida (recomendada)
+## Cómo verlo funcionar
+
+1. Entra a la carpeta del proyecto.
+2. Ejecuta:
 
 ```bash
 ./run.sh
 ```
 
-## Opción manual
+3. Abre en tu navegador:
+
+- http://127.0.0.1:8000
+
+Vas a ver una pantalla con el mensaje: **"✅ ¡Ya está funcionando!"**
+
+## Cómo detenerlo
+
+En la terminal donde corre el servidor, presiona:
+
+- `Ctrl + C`
+
+## Alternativa manual
 
 ```bash
 python3 app.py
-```
-
-## Salida esperada
-
-Al ejecutar cualquiera de las opciones, verás en terminal:
-
-- `✅ ¡Tu proyecto ya está funcionando!`
-- `Este es un punto de partida básico en Python.`
-
-## Si no te funciona
-
-1. Verifica Python:
-
-```bash
-python3 --version
-```
-
-2. Si falla con permisos en `run.sh`:
-
-```bash
-chmod +x run.sh
-./run.sh
 ```
