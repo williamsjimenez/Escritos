@@ -1,0 +1,14 @@
+<!doctype html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editor</title><link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet"><link rel="stylesheet" href="css/styles.css"></head><body>
+<header class="topbar"><a href="javascript:history.back()" class="btn">← Volver</a><h1>Editor institucional</h1></header>
+<main>
+<div class="institutional-block" id="headerBlock"></div>
+<div id="editor" style="height:320px;background:white"></div>
+<div class="institutional-block" id="footerBlock"></div>
+<div class="actions"><button id="downloadBtn" class="btn">Descargar .docx</button><button id="waBtn" class="btn">Enviar por WhatsApp</button></div>
+</main>
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="https://unpkg.com/mammoth/mammoth.browser.min.js"></script>
+<script src="https://unpkg.com/docx@8.5.0/build/index.umd.js"></script>
+<script src="https://unpkg.com/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+<script src="js/editor.js"></script>
+</body></html>

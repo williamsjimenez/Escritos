@@ -1,0 +1,9 @@
+<!doctype html><html lang='es'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Admin UNAL</title><link rel='stylesheet' href='../css/styles.css'></head><body>
+<header class='topbar'><h1>Admin Documentos</h1><a href='config/index.html' class='btn'>Config Token</a></header>
+<main id='loginView' class='card' style='margin:1rem'><h3>Acceso administrador</h3><input id='pwd' type='password' placeholder='Contraseña'><button id='loginBtn' class='btn'>Entrar</button></main>
+<main id='panel' style='display:none'>
+<section id='adminCards' class='grid'></section>
+<section class='card' style='margin:1rem'><h3>Subir documento</h3><input type='file' id='file' accept='.docx'><select id='cat'></select><input id='titulo' placeholder='Título'><input id='palabras' type='number' placeholder='Palabras'><input id='fecha' type='date'><select id='estado'><option>pendiente</option><option>en revisión</option><option>aprobado</option><option>vencido</option></select><input id='medio' placeholder='Medio'><label><input type='checkbox' id='enc' checked>Encabezado</label><label><input type='checkbox' id='pie' checked>Pie</label><button id='subir' class='btn'>Subir documento</button></section>
+<section class='card' style='margin:1rem'><h3>Documentos</h3><div id='tabla'></div></section>
+</main>
+<script src='admin.js'></script></body></html>

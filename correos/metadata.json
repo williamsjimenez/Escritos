@@ -1,0 +1,14 @@
+[
+  {
+    "archivo": "ejemplo_correos.docx",
+    "titulo": "Documento de ejemplo correos",
+    "categoria": "correos",
+    "palabras": 742,
+    "fecha_limite": "2026-05-20",
+    "estado": "pendiente",
+    "medio": "Comunicado institucional",
+    "encabezado": true,
+    "pie_pagina": true,
+    "actualizado": "2026-05-15"
+  }
+]
